@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:backgroundTint="@color/blue"
+            android:id="@+id/btnblink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blink">
+
+        </Button>
+
+        <TextView
+
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:id="@+id/blinktw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="Blink">
+
+        </TextView>
+
+    </LinearLayout>
+
+  <LinearLayout
+
+      android:layout_marginTop="5dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+    <Button
+
+        android:backgroundTint="@color/pink"
+        android:id="@+id/btnbounce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bounce">
+
+    </Button>
+
+    <TextView
+
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/BounceTW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Bounce">
+
+    </TextView>
+
+  </LinearLayout>
+
+  <LinearLayout
+
+      android:layout_marginTop="5dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+    <Button
+
+        android:backgroundTint="@color/green"
+        android:id="@+id/btnfadein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fade In">
+
+    </Button>
+
+    <TextView
+
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/fadeinTW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Fade In">
+
+    </TextView>
+
+  </LinearLayout>
+
+  <LinearLayout
+
+      android:textStyle="bold"
+      android:textColor="@color/white"
+      android:layout_marginTop="5dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+    <Button
+
+        android:backgroundTint="@color/blue"
+        android:id="@+id/btnFadeout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faade Out">
+
+    </Button>
+
+    <TextView
+
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/fadeOutTW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Fade Out">
+
+    </TextView>
+
+  </LinearLayout>
+
+  <LinearLayout
+
+      android:layout_marginTop="5dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+    <Button
+
+        android:backgroundTint="@color/pink"
+        android:id="@+id/btnflip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flip">
+
+    </Button>
+
+    <TextView
+
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/FlipTW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Flip">
+
+    </TextView>
+
+  </LinearLayout>
+
+  <LinearLayout
+
+      android:layout_marginTop="5dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+    <Button
+
+        android:backgroundTint="@color/green"
+        android:id="@+id/btnmove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move">
+
+    </Button>
+
+    <TextView
+
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/MoveTW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Move">
+
+    </TextView>
+
+  </LinearLayout>
+
+  <LinearLayout
+
+      android:layout_marginTop="5dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+    <Button
+
+        android:backgroundTint="@color/blue"
+        android:id="@+id/btnrotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotate">
+
+    </Button>
+
+    <TextView
+
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/RotateTW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Rotate">
+
+    </TextView>
+
+  </LinearLayout>
+
+  <LinearLayout
+
+      android:layout_marginTop="5dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+    <Button
+
+        android:backgroundTint="@color/pink"
+        android:id="@+id/btnSequential"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sequential">
+
+    </Button>
+
+    <TextView
+
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/SequentailTW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Sequential">
+
+    </TextView>
+
+  </LinearLayout>
+
+  <LinearLayout
+
+      android:layout_marginTop="5dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+    <Button
+
+        android:backgroundTint="@color/green"
+        android:id="@+id/btnSlideDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slide Down">
+
+    </Button>
+
+    <TextView
+
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/SlidedownTW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Slide down">
+
+    </TextView>
+
+  </LinearLayout>
+
+  <LinearLayout
+
+      android:layout_marginTop="5dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+    <Button
+
+        android:backgroundTint="@color/blue"
+        android:id="@+id/btnSlideUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SideUp">
+
+    </Button>
+
+    <TextView
+
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/SlideupTW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="@string/SideUp">
+
+    </TextView>
+
+  </LinearLayout>
+
+  <LinearLayout
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginTop="5dp">
+
+    <Button
+
+        android:backgroundTint="@color/pink"
+        android:id="@+id/btntogether"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Together">
+
+    </Button>
+
+    <TextView
+
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/togtherTW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Together">
+
+    </TextView>
+
+  </LinearLayout>
+
+  <LinearLayout
+
+      android:layout_marginTop="5dp"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+    <Button
+
+        android:backgroundTint="@color/green"
+        android:id="@+id/btnzoomin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zoom In">
+
+    </Button>
+
+    <TextView
+
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/zoominTW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Zoom In">
+
+    </TextView>
+
+  </LinearLayout>
+
+  <LinearLayout
+
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginTop="5dp">
+
+    <Button
+
+        android:backgroundTint="@color/pink"
+        android:id="@+id/btnzoomout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zoom Out">
+
+    </Button>
+
+    <TextView
+
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/ZoomoutTW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Zoom Out">
+
+    </TextView>
+
+  </LinearLayout>
+
+
+
+</LinearLayout>

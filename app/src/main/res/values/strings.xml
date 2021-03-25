@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Animations-Android</string>
+    <string name="SideUp">Slide Up</string>
+    <string name="Hi">Hello</string>
+    <string name="Bye">Bye</string>
+    <string name="SideDown">Slide Down</string>
+</resources>
